@@ -36,3 +36,52 @@ html{
     color: #ff7a1b;;
   }
   
+
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Close Button */
+.close-btn {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav.open {
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .close-btn {
+        display: block;
+    }
+}

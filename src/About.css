@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-section .features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-section .feature {
+    flex: 1 1 300px;
+    max-width: 300px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.about-section .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #435b5b;
+}
+
+.about-section .feature p {
+    font-size: 1rem;
+    color: #555;
+}

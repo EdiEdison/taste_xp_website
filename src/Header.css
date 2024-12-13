@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #435b5b;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.nav li{
+    font-size: 1rem;
+}
+.nav a:hover{
+    color: #ff7a1b;
+
+}
+
+.nav ul li a.active {
+    font-weight: bold;
+    color: #ff7a1b;;
+  }
+  
